@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Dữ liệu runtime — không commit DB
+snip.db
+data/
+
+# Secrets — TUYỆT ĐỐI không commit (dùng ở Phase 3 & Project 2)
+*.pem
+.env
+*.tfvars
+.terraform/
+credentials
+
+# OS
+.DS_Store
