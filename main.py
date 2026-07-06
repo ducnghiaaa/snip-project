@@ -12,6 +12,9 @@ app = FastAPI(title="Snip API")
 
 
 def init_db():
+    d = os.path.dirname(DB_PATH)
+    if d:
+        os.makedirs(d, exist_ok=True)
     # Tao bang luu URL neu chua co. Chay mot lan luc app khoi dong
     with sqlite3.connect(DB_PATH) as conn:
         conn.execute(
