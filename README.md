@@ -1,5 +1,3 @@
-![CI](https://github.com/<user>/snip/actions/workflows/ci.yml/badge.svg)
-
 # snip — Project 1 (Beginner)
 
 URL shortener nhỏ, được đưa từ máy local lên **một server Linux thật**, đóng gói
